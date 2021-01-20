@@ -1,0 +1,142 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+}
+
+* {
+  font-family: "Larsseit", sans-serif;
+  color: #707070;
+}
+
+.form-control {
+  background-color: #fafafa;
+}
+
+.logo {
+  color: #6c63ff;
+  font-size: 25px;
+}
+
+.__btn {
+  width: 190 !important;
+  height: 40 !important;
+  border: 3px solid #6c63ff;
+  color: #6c63ff;
+  font-size: 20px;
+}
+
+.__btn:hover {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.__img-container {
+  margin-top: 27vh;
+}
+.__img-container .__img {
+  border-radius: 50%;
+  width: 150px;
+}
+.__img-container h1 {
+  color: #6c63ff;
+}
+
+.__mt-6 {
+  margin-top: 200px;
+}
+
+.__text-blue {
+  color: #6c63ff;
+}
+
+.__bg-blue {
+  background-color: #6c63ff;
+}
+.__bg-blue * {
+  color: white;
+}
+
+.__line {
+  height: 7px;
+  background-color: #6c63ff;
+  width: 50%;
+}
+
+.__projects .__project {
+  border: 1px solid #707070;
+  border-radius: 1px;
+}
+.__projects .__project.one {
+  height: 606px;
+}
+.__projects .__project.two {
+  height: 402px;
+  margin-bottom: 18px;
+}
+.__projects .__project.three {
+  height: 184px;
+}
+
+.testimonials {
+  background: #eee;
+}
+
+.__testmonial {
+  margin-bottom: 100px;
+}
+.__testmonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.__testmonial p {
+  width: 70%;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.interested {
+  height: 100px;
+  background-color: #2f2e41;
+  margin-top: -90px;
+}
+
+.teams {
+  background-color: #eee;
+  z-index: 1;
+}
+
+.__team {
+  border: 1px solid green;
+  height: 200px;
+}
+
+footer {
+  background-color: #6c63ff;
+  height: 539px;
+}
+
+/*# sourceMappingURL=styles.css.map */
