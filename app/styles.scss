@@ -1,5 +1,5 @@
 @import "styles/variables";
-@import "styles/shared.scss";
+@import "styles/shared";
 
 * {
     font-family: $fontFamily, sans-serif;
@@ -116,4 +116,43 @@
 footer {
     background-color: $blueColor;
     height: 539px;
+}
+
+.services {
+    .content {
+        width: 90%;
+        margin-top: -100px;
+        .icon {
+            color: $blueColor;
+        }
+    }
+}
+
+footer {
+    * {
+        color: white;
+    }
+    p {
+        color: #eeee;
+    }
+    .icons {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        .__icon {
+            background-color: transparent;
+            border: 2px solid $lightGrayColor;
+            color: white;
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            transition: .1s;
+    
+            &:hover {
+                background-color: white;
+                .icon {
+                    fill: $blueColor;
+                }
+            }
+        }
+    }
 }
