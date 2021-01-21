@@ -47,6 +47,13 @@
     color: $blueColor;
 }
 
+.__text-white {
+    color: white;
+    * {
+        color: white;
+    }
+}
+
 .__bg-blue {
     background-color: $blueColor;
     * {
@@ -60,21 +67,46 @@
     width: 50%;
 }
 
+.__questions {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
 .__projects {
     .__project {
-        border: 1px solid $darkGrayColor;
-        border-radius: 1px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: .5s;
+        .info {
+            background-color: rgba(0, 0, 0, 0.2);
+            transition: .3s;
+        }
+        &:hover {
+            box-shadow: 0px 20px 20px -13px #888888;
+
+            .info {
+                margin-bottom: 100px;
+            }
+        }
+
         &.one {
             height: 606px;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/baza.png");
+            background-size: cover;
         }
 
         &.two {
             height: 402px;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),  url("../images/korea-auto-parts.png");
+            background-size: cover;
             margin-bottom: 18px;
         }
 
         &.three {
             height: 184px;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("../images/previous-portflio.png");
+            background-size: cover;
         }
     }
 }
@@ -98,7 +130,7 @@
 }
 
 .interested {
-    height: 100px;
+    min-height: 100px;
     background-color: #2f2e41;
     margin-top: -90px;
 }
@@ -109,8 +141,10 @@
 }
 
 .__team {
-    border: 1px solid green;
-    height: 200px;
+    .__avatar {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 footer {
@@ -126,6 +160,10 @@ footer {
             color: $blueColor;
         }
     }
+}
+
+.__mb-100 {
+    margin-bottom: 100px;
 }
 
 footer {
