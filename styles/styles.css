@@ -31,6 +31,12 @@
   color: #707070;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .form-control {
   background-color: #fafafa;
 }
@@ -62,6 +68,7 @@
 }
 .__img-container h1 {
   color: #6c63ff;
+  cursor: pointer;
 }
 
 .__mt-6 {

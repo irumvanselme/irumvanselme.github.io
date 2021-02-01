@@ -2,195 +2,216 @@
 @import "styles/shared";
 
 * {
-    font-family: $fontFamily, sans-serif;
-    color: $darkGrayColor;
+  font-family: $fontFamily, sans-serif;
+  color: $darkGrayColor;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .form-control {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .logo {
-    color: $blueColor;
-    font-size: 25px;
+  color: $blueColor;
+  font-size: 25px;
 }
 
 .__btn {
-    width: 190 !important;
-    height: 40 !important;
-    border: 3px solid $blueColor;
-    color: $blueColor;
-    font-size: 20px;
+  width: 190 !important;
+  height: 40 !important;
+  border: 3px solid $blueColor;
+  color: $blueColor;
+  font-size: 20px;
 }
 
 .__btn:hover {
-    background-color: $blueColor;
-    color: white;
+  background-color: $blueColor;
+  color: white;
 }
 
 .__img-container {
-    margin-top: 27vh;
-    .__img {
-        border-radius: 50%;
-        width: 150px;
-    }
-    h1 {
-        color: $blueColor;
-    }
+  margin-top: 27vh;
+  .__img {
+    border-radius: 50%;
+    width: 150px;
+  }
+  h1 {
+    color: $blueColor;
+    cursor: pointer;
+  }
 }
 
 .__mt-6 {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .__text-blue {
-    color: $blueColor;
+  color: $blueColor;
 }
 
 .__text-white {
+  color: white;
+  * {
     color: white;
-    * {
-        color: white;
-    }
+  }
 }
 
 .__bg-blue {
-    background-color: $blueColor;
-    * {
-        color: white;
-    }
+  background-color: $blueColor;
+  * {
+    color: white;
+  }
 }
 
 .__line {
-    height: 7px;
-    background-color: $blueColor;
-    width: 50%;
+  height: 7px;
+  background-color: $blueColor;
+  width: 50%;
 }
 
 .__questions {
-    margin-top: 100px;
-    margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-
 .__projects {
-    .__project {
-        border-radius: 2px;
-        cursor: pointer;
-        transition: .5s;
-        .info {
-            background-color: rgba(0, 0, 0, 0.2);
-            transition: .3s;
-        }
-        &:hover {
-            box-shadow: 0px 20px 20px -13px #888888;
-
-            .info {
-                margin-bottom: 100px;
-            }
-        }
-
-        &.one {
-            height: 606px;
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/baza.png");
-            background-size: cover;
-        }
-
-        &.two {
-            height: 402px;
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),  url("../images/korea-auto-parts.png");
-            background-size: cover;
-            margin-bottom: 18px;
-        }
-
-        &.three {
-            height: 184px;
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("../images/previous-portflio.png");
-            background-size: cover;
-        }
+  .__project {
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    .info {
+      background-color: rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
     }
+    &:hover {
+      box-shadow: 0px 20px 20px -13px #888888;
+
+      .info {
+        margin-bottom: 100px;
+      }
+    }
+
+    &.one {
+      height: 606px;
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url("../images/baza.png");
+      background-size: cover;
+    }
+
+    &.two {
+      height: 402px;
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.6)
+        ),
+        url("../images/korea-auto-parts.png");
+      background-size: cover;
+      margin-bottom: 18px;
+    }
+
+    &.three {
+      height: 184px;
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+        ),
+        url("../images/previous-portflio.png");
+      background-size: cover;
+    }
+  }
 }
 
 .testimonials {
-    background: #eee;
+  background: #eee;
 }
 
 .__testmonial {
-    img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-    p {
-        width: 70%;
-        margin-top: 40px;
-        font-size: 30px;
-    }
-    margin-bottom: 100px;
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  p {
+    width: 70%;
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  margin-bottom: 100px;
 }
 
 .interested {
-    min-height: 100px;
-    background-color: #2f2e41;
-    margin-top: -90px;
+  min-height: 100px;
+  background-color: #2f2e41;
+  margin-top: -90px;
 }
 
 .teams {
-    background-color: #eee;
-    z-index: 1;
+  background-color: #eee;
+  z-index: 1;
 }
 
 .__team {
-    .__avatar {
-        width: 50px;
-        height: 50px;
-    }
+  .__avatar {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 footer {
-    background-color: $blueColor;
-    height: 539px;
+  background-color: $blueColor;
+  height: 539px;
 }
 
 .services {
-    .content {
-        width: 90%;
-        margin-top: -100px;
-        .icon {
-            color: $blueColor;
-        }
+  .content {
+    width: 90%;
+    margin-top: -100px;
+    .icon {
+      color: $blueColor;
     }
+  }
 }
 
 .__mb-100 {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 footer {
-    * {
-        color: white;
-    }
-    p {
-        color: #eeee;
-    }
-    .icons {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        .__icon {
-            background-color: transparent;
-            border: 2px solid $lightGrayColor;
-            color: white;
-            height: 50px;
-            width: 50px;
-            border-radius: 25px;
-            transition: .1s;
-    
-            &:hover {
-                background-color: white;
-                .icon {
-                    fill: $blueColor;
-                }
-            }
+  * {
+    color: white;
+  }
+  p {
+    color: #eeee;
+  }
+  .icons {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .__icon {
+      background-color: transparent;
+      border: 2px solid $lightGrayColor;
+      color: white;
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      transition: 0.1s;
+
+      &:hover {
+        background-color: white;
+        .icon {
+          fill: $blueColor;
         }
+      }
     }
+  }
 }
