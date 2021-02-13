@@ -37,6 +37,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .form-control {
   background-color: #fafafa;
 }
@@ -211,6 +215,10 @@ footer .icons .__icon:hover {
 }
 footer .icons .__icon:hover .icon {
   fill: #6c63ff;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
