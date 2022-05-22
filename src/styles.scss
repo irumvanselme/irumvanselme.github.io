@@ -141,13 +141,14 @@ html {
 }
 
 .__testmonial {
+    max-width: 700px;
+
     img {
         width: 100px;
         height: 100px;
         border-radius: 50%;
     }
     p {
-        width: 70%;
         margin-top: 40px;
         font-size: 30px;
     }

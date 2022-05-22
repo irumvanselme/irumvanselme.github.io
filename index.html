@@ -149,6 +149,51 @@
                 <div style="max-width: 1300px" class="mx-auto">
                     <h3 class="pb-4">Projects made so far</h3>
                     <p>this is the projects I have made so far</p>
+                    <div class="my-5">
+                        <hr>
+                    </div>
+                    <div class="mt-5">
+                        <div class="swipper swiper-container-projects">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide ">
+                                    <div class="__testmonial text-center">
+                                        <h1>BazApp</h1>
+                                        <p class="mx-auto">
+                                            BazaApp is avery question/Answer app build on top of Laravel and React[Nextjs] and deployed on Heroku
+                                        </p>
+                                        <div class="mt-5">
+                                            <a href="https://bazap.vercel.app" target="_blank">https://bazap.vercel.app</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide ">
+                                    <div class="__testmonial text-center">
+                                        <h1>Consumify</h1>
+                                        <p class="mx-auto">
+                                            An App to help product Consumers write reviews on the Products they are consuming so that other consumers will see those reviews before buying them.
+                                            Built on top of React [Nexjs] and Nodejs [Express]
+                                        </p>
+                                        <div class="mt-5">
+                                            <a href="https://consumify.vercel.app" target="_blank">https://consumify.vercel.app</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide ">
+                                    <div class="__testmonial text-center">
+                                        <h1>Dolphin Developers</h1>
+                                        <p class="mx-auto">
+                                            My first website built using simple html and CSS
+                                        </p>
+                                        <div class="mt-5">
+                                            <a href="https://dolphindevelopers.netlify.app" target="_blank">https://dolphindevelopers.netlify.app</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination" id="projects"></div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section
@@ -384,7 +429,7 @@
                             />
                         </div>
                         <div class="form-group">
-                            <label for="">Comment or Message</label>
+                            <label for="message">Comment or Message</label>
                             <textarea
                                 name=""
                                 rows="7"
@@ -512,5 +557,13 @@
                 clickable: true,
             },
         });
+        var swiper1 = new Swiper(".swiper-container-projects", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                effect: "cube"
+            },
+        });
+
     </script>
 </html>
