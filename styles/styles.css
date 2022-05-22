@@ -28,22 +28,22 @@
 
 @font-face {
   font-family: "CustomFont";
-  src: url("../src/fonts/CircularXXTT-Regular.ttf");
+  src: url("../src/fonts/CustomFont-Regular.ttf");
   font-weight: normal;
 }
 @font-face {
   font-family: "CustomFont";
-  src: url("../src/fonts/CircularXXTT-Light.ttf");
+  src: url("../src/fonts/CustomFont-Light.ttf");
   font-weight: 300;
 }
 @font-face {
   font-family: "CustomFont";
-  src: url("../src/fonts/CircularXXTT-Medium.ttf");
+  src: url("../src/fonts/CustomFont-Medium.ttf");
   font-weight: 500;
 }
 @font-face {
   font-family: "CustomFont";
-  src: url("../src/fonts/CircularXXTT-Bold.ttf");
+  src: url("../src/fonts/CustomFont-Bold.ttf");
   font-weight: 700;
 }
 * {
