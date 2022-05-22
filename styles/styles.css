@@ -26,9 +26,32 @@
   height: 14px;
 }
 
+@font-face {
+  font-family: "CustomFont";
+  src: url("../src/fonts/CircularXXTT-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CustomFont";
+  src: url("../src/fonts/CircularXXTT-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "CustomFont";
+  src: url("../src/fonts/CircularXXTT-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "CustomFont";
+  src: url("../src/fonts/CircularXXTT-Bold.ttf");
+  font-weight: 700;
+}
 * {
-  font-family: "Larsseit", sans-serif;
-  color: #707070;
+  font-family: "CustomFont", sans-serif;
+}
+
+* {
+  font-family: "CustomFont", sans-serif;
 }
 
 body {
@@ -195,7 +218,7 @@ footer * {
   color: white;
 }
 footer p {
-  color: #eeee;
+  color: rgba(238, 238, 238, 0.9333333333);
 }
 footer .icons {
   margin-top: 100px;
