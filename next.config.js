@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    outDir: "./docs",
+    outDir: "docs",
 
     images: {
         loader: "akamai",
