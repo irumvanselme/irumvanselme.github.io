@@ -82,13 +82,41 @@ html {
 
 .__line {
 	height: 7px;
-	background-color: $blueColor;
 	width: 50%;
+}
+
+.swiper {
+	width: 90vw;
+	height: 300px;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	.swiper-button-prev {
+		right: -100px;
+		position: absolute;
+		left: 0;
+	}
+	.swiper-button-next {
+		right: -100px;
+		position: absolute;
+		right: 0;
+	}
+}
+
+.__project_one {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	text-align: left;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
 }
 
 .__questions {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	background-color: $darkBgColor;
 }
 
 .__projects {
@@ -182,11 +210,14 @@ html {
 }
 
 footer {
-	background-color: $blueColor;
+	background-color: $darkBgColor;
 	height: 539px;
 }
 
 .services {
+	.__services_title {
+		background-color: $darkBgColor;
+	}
 	.content {
 		width: 90%;
 		margin-top: -100px;
@@ -224,7 +255,7 @@ footer {
 			&:hover {
 				background-color: white;
 				.icon {
-					fill: $blueColor;
+					fill: $darkBgColor;
 				}
 			}
 		}
