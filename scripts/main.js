@@ -100,6 +100,9 @@ function contactAnselme(event) {
 					.then((res2) => {
 						if (res.status == 400) {
 							alert(Object.values(res2)[0][0]);
+						} else {
+							alert("Message sent successfully");
+							window.location.reload();
 						}
 					})
 					.catch((e) => {
